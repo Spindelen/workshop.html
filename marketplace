@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy marketplace app</title>
+    <link rel="stylesheet" href="images/laughing_google.png">
+    <meta name="Description" content="The Happy Marketplace app">
+    <meta name="Keywords" content=" app, shop, happy, money"> 
+<style>
+     /* Body style*/
+        body{
+            font-family: "Arial", "Sans-serif";
+            background-color: #d4d0d0;
+            color: #333;}
+        /* Header style */
+        header{
+            background-color: #d10000;
+            color: white;
+            text-align: center;
+            padding: 20px;}
+
+/* Section styles */
+            section{
+              margin: 20px auto; margin-top: 20px auto; margin-top: 20px auto;
+            padding: 20px; border-radius: 5px; background-color: #fff; }
+/*Heading styles*/
+h2{
+    color: #4caf50; text-align: center; }
+/*Product styles*/
+.Products{ 
+    padding: 10px; max-width: 600px; border: 1px #ddd solid;
+    border-radius: 5px; 
+}
+/*Product images styles*/
+img{
+    max-width: 100%; border-radius: 5px; margin-top: 20px auto; margin-bottom: 20px auto;
+}
+/*Email style marginal*/
+ .epost{
+    margin-bottom: 20px;}
+/*buttom design*/
+button{
+    background-color: #4caf50;color: #fff;padding: 5px; border-style: none; border-radius: 30px;
+}
+/*footer styles*/
+footer{
+    margin-top: 20px; padding: 20px; background-color: #000000; border-radius: 20px; box-shadow: inset; text-align: center; color: #fff;
+}
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Happy Marketplace App</h1>
+        <p>Here at Happy we love to shop and now you can shop with Happy</p>
+        <hr>
+    </header>
+    <main>
+        <h2>Happy Products</h2>
+        <section id="Products">
+            <div class="Products">
+                <h3>Speaker</h3>
+                <img src="images/1759399537899.jpg" alt="Picture of a Speaker" width="600" height="400">
+
+                <p> Speaker that makes you Happy, doesn't work if you angry.</p>
+                <ul>
+                    <li>Price: £500</li>
+                    <li>Catagory; Electronic</li>
+                    <li>rating: 3/5
+                        <li>Happy approved</li>
+                    </li>
+
+                </ul>
+                <div class="Email field"><label for="Email"></label> E-mail:</div>
+                <span id="email">happy@happy.com</span><br>
+
+              <button>View Details</button>
+              <hr>
+              
+              <h3>Hat</h3>
+             <img src="images/1759399692773.jpg" alt="Picture of a hat" width="600" height="400"> 
+              <img src="https://placeholder.com" alt="picture of a hat">
+              <p>Cool hat that shows people how happy you are</p>
+              <ul>
+                <li>Price: £250</li>
+                <li>Catagory: Clothing</li>
+                <li>Rating 3/5</li>
+                <li>Happy approved</li>
+                <li>as seen on tv</li>
+              </ul>
+             <div class="Email field"><label for="Email"></label> E-mail:</div>
+                <span id="email">happy@happy.com</span><br>
+              
+              <button> View Details
+              </button> <hr>
+            </div>
+        </section>
+    </main>
+<footer>
+    Copyright &copy; 2025 Happyco
+</footer>
+</body>
+</html>
